@@ -116,9 +116,9 @@
 
 Other TODOs:
 
-[ ] Make the sidecar close other tabs when switching files, right now they
+- [ ] Make the sidecar close other tabs when switching files, right now they
 accumulate
-[ ] Change the viewport logic so that we center around the cursor, rather than
+- [ ] Change the viewport logic so that we center around the cursor, rather than
 just scrolling to the first visible line in JetBrains -- otherwise hats won't
 render if the VS Code window isn't tall enough
 
