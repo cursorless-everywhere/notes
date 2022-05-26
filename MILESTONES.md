@@ -132,7 +132,7 @@
 
 # Appendix
 
-[1] mThe VS Code watcher API:
+[1] The VS Code watcher API:
 
 ```
       // An Event which fires when the active editor has changed. Note that the event also fires when the active editor changes to undefined.
