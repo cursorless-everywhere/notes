@@ -25,8 +25,8 @@
         - It can handle the file completely reloading, but this could cause the
           hat map to change, which would prevent chaining multiple cursorless
           commands within a single utterance.
-        - However, for this milestone chaining probably won't work in any capacity,
-          so will come back to this later.
+        - However, for this milestone chaining probably won't work in any
+          capacity, so will come back to this later.
 - JetBrains will record serial numbers/versions for every editor (or for the
   state as a whole -- pokey's suggestion).
     - We will attempt to tag the hats file with the serial number, so we can
@@ -114,13 +114,21 @@
               cursorless commands.
         - That should unblock @rntz for now.
 
+3. Right now hats in VS Code ("editor decorations") effectively get rebased
+   whenever the user makes changes to the document -- VS Code does that for
+   free.
+    - For example, if you press enter on the line above a series of hats, the
+      hats move down alongside the line instantly -- there's no jank.
+    - This doesn't happen with the JetBrains prototype, so you instead have hats
+      floating in midair
+
 ### Other TODOs:
 
 - [ ] Make the sidecar close other tabs when switching files, right now they
-accumulate
+  accumulate
 - [ ] Change the viewport logic so that we center around the cursor, rather than
-just scrolling to the first visible line in JetBrains -- otherwise hats won't
-render if the VS Code window isn't tall enough
+  just scrolling to the first visible line in JetBrains -- otherwise hats won't
+  render if the VS Code window isn't tall enough
 
 # Appendix
 
