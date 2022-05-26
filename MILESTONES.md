@@ -17,14 +17,15 @@
     - The JetBrains user should not need to save their file for Cursorless to
       work.
 - We will change the sidecar extension to load this temporary file rather than
-  the real one. - Every time the JetBrains state changes we will clobber the
-  temporary file and have the VS Code reload it.
-    - Long term, this is not ideal -- Cursorless depends on receiving diffs from
-      the VS Code to manage its state. It can handle the file completely
-      reloading, but this could cause the hat map to change, which would prevent
-      chaining multiple cursorless commands within a single utterance.
-    - However, for this milestone chaining probably won't work in any capacity,
-      so will come back to this later.
+  the real one.
+  - Every time the JetBrains state changes we will clobber the
+    temporary file and have the VS Code reload it.
+  - Long term, this is not ideal -- Cursorless depends on receiving diffs from
+    the VS Code to manage its state. It can handle the file completely
+    reloading, but this could cause the hat map to change, which would prevent
+    chaining multiple cursorless commands within a single utterance.
+  - However, for this milestone chaining probably won't work in any capacity,
+    so will come back to this later.
 - JetBrains will record serial numbers/versions for every editor (or for the
   state as a whole -- pokey's suggestion).
     - We will attempt to tag the hats file with the serial number, so we can
