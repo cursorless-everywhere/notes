@@ -114,7 +114,7 @@
               cursorless commands.
         - That should unblock @rntz for now.
 
-Other TODOs:
+### Other TODOs:
 
 - [ ] Make the sidecar close other tabs when switching files, right now they
 accumulate
