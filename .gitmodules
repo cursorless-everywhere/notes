@@ -1,3 +1,6 @@
 [submodule "cursorless"]
 	path = cursorless
 	url = https://github.com/phillco/cursorless.git
+[submodule "emacs"]
+	path = emacs
+	url = https://github.com/rntz/emacs-cursorless.git
