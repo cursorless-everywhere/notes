@@ -4,3 +4,6 @@
 [submodule "emacs"]
 	path = emacs
 	url = https://github.com/rntz/emacs-cursorless.git
+[submodule "sidecar"]
+	path = sidecar
+	url = https://github.com/phillco/cursorless-sidecar.git
