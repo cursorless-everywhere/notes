@@ -1,0 +1,3 @@
+[submodule "cursorless"]
+	path = cursorless
+	url = https://github.com/phillco/cursorless.git
